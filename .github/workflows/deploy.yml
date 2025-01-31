@@ -23,7 +23,7 @@ jobs:
       
       - name: Install Dependencies (Optional)
         run: |
-          npm install  # If you have a package.json (optional)
+          npm install  # If package.json is optional (optional)
       
       - name: Build Project (Optional)
         run: |
