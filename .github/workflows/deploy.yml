@@ -21,9 +21,9 @@ jobs:
         with:
           node-version: 18
       
-      - name: Install Dependencies (Optional)
-        run: |
-          npm install  # If package.json is optional (optional)
+      # - name: Install Dependencies (Optional)
+      #   run: |
+      #     npm install  # If package.json is needed (optional)
       
       - name: Build Project (Optional)
         run: |
